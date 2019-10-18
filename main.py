@@ -31,4 +31,4 @@ for i in words:
 
 print(convertedSentence)
 
-subprocess.call(["espeak", "" + convertedSentence])
+#subprocess.call(["espeak", "" + convertedSentence]) # this is for text to speech, leave commented
