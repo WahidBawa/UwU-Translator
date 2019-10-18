@@ -20,19 +20,17 @@ def convert(word):
 			converted += word[i]
 	convertedSentence += converted + " "
 
-
 while True:
 	option = int(input("1. String\n2. Text File\nEnter Option here: "))
 	if option == 2:
 		fName = input("Enter the name of your file (with extension): ")
-		text = open(fName, "r").read().strip().split('\n')
+		text = open("INPUT/" + fName, "r").read().strip().split('\n')
 	elif option == 1:
 		userInput = input("Enter Text Here: ")
 	else:
 		print("Please enter in a valid option!!\n\n")
 		continue
 	break
-
 
 convertedSentence = ""
 if option == 1:
@@ -45,7 +43,8 @@ else:
 		for n in temp:
 			convert(n)
 		convertedSentence += "\n"
+	UwU = open("OUTPUT/" + fName.split(".")[0] + "_UwU.txt", "w")
+	UwU.write(convertedSentence)
 
-print(convertedSentence)
-
+print("\n" + convertedSentence)
 #subprocess.call(["espeak", "" + convertedSentence]) # this is for text to speech, leave commented
