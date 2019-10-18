@@ -1,11 +1,5 @@
 import subprocess
 
-userInput = input("Enter Text Here: ")
-
-words = userInput.split(" ")
-
-convertedSentence = ""
-
 def convert(word):
 	global convertedSentence
 	converted = ""
@@ -26,8 +20,31 @@ def convert(word):
 			converted += word[i]
 	convertedSentence += converted + " "
 
-for i in words:
-	convert(i)
+
+while True:
+	option = int(input("1. String\n2. Text File\nEnter Option here: "))
+	if option == 2:
+		fName = input("Enter the name of your file (with extension): ")
+		text = open(fName, "r").read().strip().split('\n')
+	elif option == 1:
+		userInput = input("Enter Text Here: ")
+	else:
+		print("Please enter in a valid option!!\n\n")
+		continue
+	break
+
+
+convertedSentence = ""
+if option == 1:
+	words = userInput.split(" ")
+	for i in words:
+		convert(i)
+else:
+	for i in text:
+		temp = i.split(" ")
+		for n in temp:
+			convert(n)
+		convertedSentence += "\n"
 
 print(convertedSentence)
 
