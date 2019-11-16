@@ -23,7 +23,7 @@ def convert(word):
 			converted += word[i]
 	convertedSentence += ((converted[0] + "-" + converted[0:]) if (rand(1, 10) == 1 and converted[0] in alphabet) else converted) + " "
 
-while False: # TURN THIS TO TRUE
+while True: # TURN THIS TO TRUE
 	option = int(input("1. String\n2. Text File\nEnter Option here: "))
 	if option == 2:
 		fName = input("Enter the name of your file (with extension): ")
@@ -34,8 +34,7 @@ while False: # TURN THIS TO TRUE
 		print("Please enter in a valid option!!\n\n")
 		continue
 	break
-option = 1
-userInput = "where are you, where is my little friend daddy? :("
+
 convertedSentence = ""
 if option == 1:
 	words = userInput.split(" ")
