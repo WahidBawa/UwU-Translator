@@ -1,0 +1,281 @@
+Key Concepts in Computer Science (COMP-1000)
+Basic Structures: Sets
+Set Operations
+School of Computer Science
+Faculty of Science
+University of Windsor
+Dr. Dima Alhadidi (Section 1)
+Dr. Ahmad Biniaz (Section 30)
+Fall 2019
+Based on lecture notes by previous COMP-1000 instructors
+1
+Set Operations
+Key Concepts in Computer Science
+2
+Set Operations - Outline
+Key Concepts in Computer Science
+• Boolean Algebra
+• Set Operations
+– Union
+– Intersection
+– Complementation
+– Difference
+• More on Set Cardinality
+• Set Identities
+• Proving Identities
+• Membership Tables
+3
+Boolean Algebra
+• Propositional calculus and set theory are both instances
+of an algebraic system called a Boolean Algebra
+• The operators in set theory are analogous to the
+corresponding operator in propositional calculus
+• As always there must be a universal set U
+– All sets are assumed to be subsets of U
+Key Concepts in Computer Science
+4
+Union
+• Definition: Let A and B be sets. The union of the sets A
+and B, denoted by A ∪ B, is the set:
+• Example: What is {1,2,3} ∪ {3, 4, 5}?
+• Solution: {1,2,3,4,5}
+U
+A B
+Venn Diagram for A ∪	B
+Key Concepts in Computer Science
+5
+Intersection
+• Definition: The intersection of sets A and B, denoted by A ∩ B, is
+• Note if the intersection is empty, then A and B are said to be
+disjoint
+• Example: What is {1,2,3} ∩ {3,4,5} ?
+Solution: {3}
+• Example: What is {1,2,3} ∩ {4,5,6} ?
+Solution: ∅
+U
+A B
+Venn Diagram for	A ∩	B
+Key Concepts in Computer Science
+6
+Complement
+Definition: If A is a set, then the complement of the A (with
+respect to U), denoted by Ā is the set U - A
+Ā = {x ∈ U | x ∉ A}
+Example: If U is the positive integers less than 100, what is the
+complement of {x | x > 70}
+Solution: {x | x ≤ 70}
+A
+U
+Venn Diagram for Complement
+Ā
+Key Concepts in Computer Science
+7
+Difference
+• Definition: Let A and B be sets. The difference of A and B,
+denoted by A – B, is the set containing the elements of A
+that are not in B
+A – B = {x | x ∈ A Ù x ∉ B} = A ∩`B
+U
+A
+B
+Venn Diagram for	A −	B
+Key Concepts in Computer Science
+8
+Example: What is {1,2,3} - {3,4,5} ?
+Solution: {1, 2}
+The Cardinality of the Union of Two Sets
+• Inclusion-Exclusion: |A ∪ B| = |A| + | B| − |A ∩ B|
+• Example: Let A be the math majors in your class and B be the
+CS majors. To count the number of students who are either
+math majors or CS majors, add the number of math majors
+and the number of CS majors, and subtract the number of
+joint CS/math majors.
+U
+A B
+Venn Diagram for	A,	B, A ∩	B, A ∪	B
+Key Concepts in Computer Science
+9
+Review Questions
+Example: U = {0,1,2,3,4,5,6,7,8,9,10} A = {1,2,3,4,5}, B ={4,5,6,7,8}
+1. A ∪ B
+Solution: {1,2,3,4,5,6,7,8}
+2. A ∩ B
+Solution: {4,5}
+3. Ā
+Solution: {0,6,7,8,9,10}
+4.
+Solution: {0,1,2,3,9,10}
+5. A – B
+Solution: {1,2,3}
+6. B – A
+Solution: {6,7,8}
+Key Concepts in Computer Science
+10
+Set Identities
+• Identity laws
+• Domination laws
+• Idempotent laws
+• Complementation law
+Key Concepts in Computer Science
+11
+Set Identities
+• Commutative laws
+• Associative laws
+• Distributive laws
+Key Concepts in Computer Science
+12
+Set Identities
+• De Morgan’s laws
+• Absorption laws
+• Complement laws
+Key Concepts in Computer Science
+13
+Proving Set Identities
+• Different ways to prove set identities:
+1. Prove that each set (side of the identity) is a subset of
+the other.
+2. Use set builder notation and propositional logic.
+3. Membership Tables: Verify that elements in the same
+combination of sets always either belong or do not
+belong to the same side of the identity. Use 1 to
+indicate it is in the set and a 0 to indicate that it is not.
+Key Concepts in Computer Science
+14
+Proof of Second De Morgan Law
+Example: Prove that
+Solution: We prove this identity by showing that:
+1) and
+2)
+Continued on next slide à
+Key Concepts in Computer Science
+15
+Proof of Second De Morgan Law
+These steps show that:
+Continued on next slide à
+Key Concepts in Computer Science
+16
+Proof of Second De Morgan Law
+These steps show that:
+Key Concepts in Computer Science
+17
+Set-Builder Notation: Second De Morgan Law
+Key Concepts in Computer Science
+18
+Membership Table
+A B C
+1 1 1 1 1 1 1 1
+1 1 0 0 1 1 1 1
+1 0 1 0 1 1 1 1
+1 0 0 0 1 1 1 1
+0 1 1 1 1 1 1 1
+0 1 0 0 0 1 0 0
+0 0 1 0 0 0 1 0
+0 0 0 0 0 0 0 0
+Solution:
+Example: Construct a membership table to show that the distributive law holds
+Key Concepts in Computer Science
+19
+Problems
+1. Let A = {1, 2, 3, 4, 5} and B = {0, 3, 6}. Find
+a) A È B b) A Ç B c) A - B d) B – A
+2. Prove A È B = B È A using each of the three methods listed
+on slide 15 (Proving Set Identities)
+3. Show that if A and B are sets then A – B = A Ç B.
+Key Concepts in Computer Science
+20
+Symmetric Difference (optional)
+Definition: The symmetric difference of A and B, denoted
+by is the set
+Example:
+U = {0,1,2,3,4,5,6,7,8,9,10}
+A = {1,2,3,4,5} B ={4,5,6,7,8}
+What is ?
+Solution: {1,2,3,6,7,8}
+How is this analogous to exclusive-or?
+U
+A B
+Venn Diagram
+Key Concepts in Computer Science
+21
+Generalized Unions and Intersections (optional)
+• Let A1, A2 ,…, An be an indexed collection of sets. We define:
+• These are well defined, since union and intersection are associative
+• For i = 1,2,…, let Ai = {i, i + 1, i + 2, ….}. Then,
+Key Concepts in Computer Science
+22
+Programming Challenge (optional)
+Use int arrays to represent sets of integers in C.
+Correctly implement (focus on correctness, worry
+about efficiency later) the following functions:
+// Take a list (array) of integers and make it a set by removing duplicates
+procedure makeSet(L: list of integers)
+// Determine of x is an element of a given set
+procedure isElementOf(x: integer, S: set of integers)
+// Return the union of two sets
+procedure union(S1: set of integers, S2: set of integers
+// intersection, etc.
+Key Concepts in Computer Science
+23
+Formal Definition of a Boolean Algebra (optional)
+Key Concepts in Computer Science
+Definition: A Boolean algebra is a set B with two binary
+operations ∨ and ∧, elements 0 and 1, and a unary operation ̅
+such that for all x, y, and z in B:
+x ∨ 0	=	x
+x ∧	1	=	x
+x ∨	 �̅=	1
+x ∧		�̅=	0
+(x ∨ y ) ∨ z =	x ∨	(y ∨ z)
+(x ∧	y ) ∧	z		=	x ∧	(y ∧ z)
+x ∨ y =	y ∨ x
+x ∧	y =	y ∧ x
+x ∨ (y ∧ z) =	(x ∨	y) ∧ (y ∨ z)
+x ∧		(y ∨	z	) =	(x ∧	y) ∨	(y ∧ z)
+identity laws
+complement laws
+associative laws
+commutative laws
+distributive laws
+The set of propositional variables
+with the operators ∧ and ∨,
+elements T and F, and the
+negation operator ¬	 is a Boolean
+algebra.
+The set of subsets of a universal
+set with the operators ∪ and ∩,
+the empty set (Æ), universal set
+(U), and the set complementation
+operator ( )̅ is a Boolean algebra.
+24
+Extra Topic: Circuits
+(This will not be covered on exams)
+Key Concepts in Computer Science
+25
+A NOT gate accepts one input value and produces one output value. The output is the negation of the input.
+An AND gate accepts two input signals and outputs their logical and.
+Extra Topic: Circuits
+(This will not be covered on exams)
+Key Concepts in Computer Science
+26
+For an OR gate, if the two input values are both 0, the output value is 0; otherwise, the output is 1
+Extra Topic: Circuits
+(This will not be covered on exams)
+Key Concepts in Computer Science
+27
+The NAND and NOR gates are essentially the
+opposite of the AND and OR gates, respectively
+Extra Topic: Circuits
+(This will not be covered on exams)
+Key Concepts in Computer Science
+28
+• A circuit that computes the sum of
+two bits
+and produces the correct carry bit
+is called a half adder
+• Two Boolean expressions:
+sum = A Å B
+carry = AÙB
+• The result of adding two binary
+digits could produce a carry value
+• Recall that 1 + 1 = 10
+in base two 

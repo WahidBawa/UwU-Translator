@@ -1,0 +1,281 @@
+Key Concepts in Computew Science (COMP-1000) 
+Basic Stwuctuwes: Sets 
+Set Opewations 
+Schoow of Computew Science 
+Facuwty of Science 
+Univewsity of Windsow 
+Dw. Dima Awhadidi (Section 1) 
+Dw. Ahmad Biniaz (Section 30) 
+Faww 2019 
+Based on wectuwe notes by pwevious COMP-1000 instwuctows 
+1 
+Set Opewations 
+Key Concepts in Computew Science 
+2 
+Set Opewations - Outwine 
+Key Concepts in Computew Science 
+• Boowean Awgebwa 
+• Set Opewations 
+– Union 
+– Intewsection 
+– Compwementation 
+– Diffewence 
+• Mowe on Set Cawdinawity 
+• Set Identities 
+• Pwoving Identities 
+• Membewship Tabwes 
+3 
+Boowean Awgebwa 
+• Pwopositionaw cawcuwus and set theowy awe bof instances 
+of an awgebwaic system cawwed a Boowean Awgebwa 
+• the opewatows in set theowy awe anawogous to the 
+cowwesponding opewatow in pwopositionaw cawcuwus 
+• As awways thewe must be a univewsaw set U 
+– Aww sets awe assumed to be subsets of U 
+Key Concepts in Computew Science 
+4 
+Union 
+• Definition: Wet A and B be sets. the union of the sets A 
+and B, denoted by A ∪ B, is the set: 
+• Exampwe: What is {1,2,3} ∪ {3, 4, 5}? 
+• Sowution: {1,2,3,4,5} 
+U 
+A B 
+Venn Diagwam fow A ∪	B 
+Key Concepts in Computew Science 
+5 
+Intewsection 
+• Definition: the intewsection of sets A and B, denoted by A ∩ B, is 
+• Note if the intewsection is empty, then A and B awe said to be 
+disjoint 
+• Exampwe: What is {1,2,3} ∩ {3,4,5} ? 
+Sowution: {3} 
+• Exampwe: What is {1,2,3} ∩ {4,5,6} ? 
+Sowution: ∅ 
+U 
+A B 
+Venn Diagwam fow	A ∩	B 
+Key Concepts in Computew Science 
+6 
+Compwement 
+Definition: If A is a set, then the compwement of the A (wif 
+wespect to U), denoted by Ā is the set U - A 
+Ā = {x ∈ U | x ∉ A} 
+Exampwe: If U is the positive integews wess than 100, what is the 
+compwement of {x | x > 70} 
+Sowution: {x | x ≤ 70} 
+A 
+U 
+Venn Diagwam fow Compwement 
+Ā 
+Key Concepts in Computew Science 
+7 
+Diffewence 
+• Definition: Wet A and B be sets. the diffewence of A and B, 
+denoted by A – B, is the set containing the ewements of A 
+that awe not in B 
+A – B = {x | x ∈ A Ù x ∉ B} = A ∩`B 
+U 
+A 
+B 
+Venn Diagwam fow	A −	B 
+Key Concepts in Computew Science 
+8 
+Exampwe: What is {1,2,3} - {3,4,5} ? 
+Sowution: {1, 2} 
+the Cawdinawity of the Union of Two Sets 
+• Incwusion-Excwusion: |A ∪ B| = |A| + | B| − |A ∩ B| 
+• Exampwe: Wet A be the maf majows in youw cwass and B be the 
+CS majows. To count the numbew of students who awe eithew 
+maf majows ow CS majows, add the numbew of maf majows 
+and the numbew of CS majows, and subtwact the numbew of 
+joint CS/maf majows. 
+U 
+A B 
+Venn Diagwam fow	A,	B, A ∩	B, A ∪	B 
+Key Concepts in Computew Science 
+9 
+Weview Questions 
+Exampwe: U = {0,1,2,3,4,5,6,7,8,9,10} A = {1,2,3,4,5}, B ={4,5,6,7,8} 
+1. A ∪ B 
+Sowution: {1,2,3,4,5,6,7,8} 
+2. A ∩ B 
+Sowution: {4,5} 
+3. Ā 
+Sowution: {0,6,7,8,9,10} 
+4. 
+Sowution: {0,1,2,3,9,10} 
+5. A – B 
+Sowution: {1,2,3} 
+6. B – A 
+Sowution: {6,7,8} 
+Key Concepts in Computew Science 
+10 
+Set Identities 
+• Identity waws 
+• Domination waws 
+• Idempotent waws 
+• Compwementation waw 
+Key Concepts in Computew Science 
+11 
+Set Identities 
+• Commutative waws 
+• Associative waws 
+• Distwibutive waws 
+Key Concepts in Computew Science 
+12 
+Set Identities 
+• De Mowgan’s waws 
+• Absowption waws 
+• Compwement waws 
+Key Concepts in Computew Science 
+13 
+Pwoving Set Identities 
+• Diffewent ways to pwove set identities: 
+1. Pwove that each set (side of the identity) is a subset of 
+the othew. 
+2. Use set buiwdew notation and pwopositionaw wogic. 
+3. Membewship Tabwes: Vewify that ewements in the same 
+combination of sets awways eithew bewong ow do not 
+bewong to the same side of the identity. Use 1 to 
+indicate it is in the set and a 0 to indicate that it is not. 
+Key Concepts in Computew Science 
+14 
+Pwoof of Second De Mowgan Waw 
+Exampwe: Pwove that 
+Sowution: We pwove this identity by showing that: 
+1) and 
+2) 
+Continued on next swide à 
+Key Concepts in Computew Science 
+15 
+Pwoof of Second De Mowgan Waw 
+these steps show that: 
+Continued on next swide à 
+Key Concepts in Computew Science 
+16 
+Pwoof of Second De Mowgan Waw 
+these steps show that: 
+Key Concepts in Computew Science 
+17 
+Set-Buiwdew Notation: Second De Mowgan Waw 
+Key Concepts in Computew Science 
+18 
+Membewship Tabwe 
+A B C 
+1 1 1 1 1 1 1 1 
+1 1 0 0 1 1 1 1 
+1 0 1 0 1 1 1 1 
+1 0 0 0 1 1 1 1 
+0 1 1 1 1 1 1 1 
+0 1 0 0 0 1 0 0 
+0 0 1 0 0 0 1 0 
+0 0 0 0 0 0 0 0 
+Sowution: 
+Exampwe: Constwuct a membewship tabwe to show that the distwibutive waw howds 
+Key Concepts in Computew Science 
+19 
+Pwobwems 
+1. Wet A = {1, 2, 3, 4, 5} and B = {0, 3, 6}. Find 
+a) A È B b) A Ç B c) A - B d) B – A 
+2. Pwove A È B = B È A using each of the thwee methods wisted 
+on swide 15 (Pwoving Set Identities) 
+3. Show that if A and B awe sets then A – B = A Ç B. 
+Key Concepts in Computew Science 
+20 
+Symmetwic Diffewence (optionaw) 
+Definition: the symmetwic diffewence of A and B, denoted 
+by is the set 
+Exampwe: 
+U = {0,1,2,3,4,5,6,7,8,9,10} 
+A = {1,2,3,4,5} B ={4,5,6,7,8} 
+What is ? 
+Sowution: {1,2,3,6,7,8} 
+How is this anawogous to excwusive-ow? 
+U 
+A B 
+Venn Diagwam 
+Key Concepts in Computew Science 
+21 
+Genewawized Unions and Intewsections (optionaw) 
+• Wet A1, A2 ,…, An be an indexed cowwection of sets. We define: 
+• these awe weww defined, since union and intewsection awe associative 
+• Fow i = 1,2,…, wet Ai = {i, i + 1, i + 2, ….}. then, 
+Key Concepts in Computew Science 
+22 
+Pwogwamming Chawwenge (optionaw) 
+Use int awways to wepwesent sets of integews in C. 
+Cowwectwy impwement (focus on cowwectness, wowwy 
+about efficiency watew) the fowwowing functions: 
+// Take a wist (awway) of integews and make it a set by wemoving dupwicates 
+pwoceduwe makeSet(W: wist of integews) 
+// Detewmine of x is an ewement of a given set 
+pwoceduwe isEwementOf(x: integew, S: set of integews) 
+// Wetuwn the union of two sets 
+pwoceduwe union(S1: set of integews, S2: set of integews 
+// intewsection, etc. 
+Key Concepts in Computew Science 
+23 
+Fowmaw Definition of a Boowean Awgebwa (optionaw) 
+Key Concepts in Computew Science 
+Definition: A Boowean awgebwa is a set B wif two binawy 
+opewations ∨ and ∧, ewements 0 and 1, and a unawy opewation ̅ 
+such that fow aww x, y, and z in B: 
+x ∨ 0	=	x 
+x ∧	1	=	x 
+x ∨	 �̅=	1 
+x ∧		�̅=	0 
+(x ∨ y ) ∨ z =	x ∨	(y ∨ z) 
+(x ∧	y ) ∧	z		=	x ∧	(y ∧ z) 
+x ∨ y =	y ∨ x 
+x ∧	y =	y ∧ x 
+x ∨ (y ∧ z) =	(x ∨	y) ∧ (y ∨ z) 
+x ∧		(y ∨	z	) =	(x ∧	y) ∨	(y ∧ z) 
+identity waws 
+compwement waws 
+associative waws 
+commutative waws 
+distwibutive waws 
+the set of pwopositionaw vawiabwes 
+wif the opewatows ∧ and ∨, 
+ewements t and F, and the 
+negation opewatow ¬	 is a Boowean 
+awgebwa. 
+the set of subsets of a univewsaw 
+set wif the opewatows ∪ and ∩, 
+the empty set (Æ), univewsaw set 
+(U), and the set compwementation 
+opewatow ( )̅ is a Boowean awgebwa. 
+24 
+Extwa Topic: Ciwcuits 
+(this wiww not be covewed on exams) 
+Key Concepts in Computew Science 
+25 
+A NOt gate accepts one input vawue and pwoduces one output vawue. the output is the negation of the input. 
+An AND gate accepts two input signaws and outputs theiw wogicaw and. 
+Extwa Topic: Ciwcuits 
+(this wiww not be covewed on exams) 
+Key Concepts in Computew Science 
+26 
+Fow an OW gate, if the two input vawues awe bof 0, the output vawue is 0; othewwise, the output is 1 
+Extwa Topic: Ciwcuits 
+(this wiww not be covewed on exams) 
+Key Concepts in Computew Science 
+27 
+the NAND and NOW gates awe essentiawwy the 
+opposite of the AND and OW gates, wespectivewy 
+Extwa Topic: Ciwcuits 
+(this wiww not be covewed on exams) 
+Key Concepts in Computew Science 
+28 
+• A ciwcuit that computes the sum of 
+two bits 
+and pwoduces the cowwect cawwy bit 
+is cawwed a hawf addew 
+• Two Boowean expwessions: 
+sum = A Å B 
+cawwy = AÙB 
+• the wesuwt of adding two binawy 
+digits couwd pwoduce a cawwy vawue 
+• Wecaww that 1 + 1 = 10 
+in base two 
