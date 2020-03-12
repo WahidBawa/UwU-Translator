@@ -22,7 +22,7 @@ def convert(word):
 			th_Presence = True if i + 2 == len(word) else False
 		else:
 			converted += word[i]
-	if word[0] != ":" or word[-1] != ":":
+	if len(word) > 0 and (word[0] != ":" or word[-1] != ":"):
 		convertedSentence += ((converted[0] + "-" + converted[0:]) if (rand(1, 10) == 1 and converted[0] in alphabet) else converted) + " "
 	else:
 		convertedSentence += word + " "
